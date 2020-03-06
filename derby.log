@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Mar 06 11:47:25 SAST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-af3e-131e-0000073544d8 
+on database directory /Users/Ohayon/NetBeansProjects/Library Assistants/database with class loader sun.misc.Launcher$AppClassLoader@6bc7c054 
+Loaded from file:/Users/Ohayon/NetBeansProjects/Library%20Assistants/dist/run1698452801/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-b11
+user.dir=/Users/Ohayon/NetBeansProjects/Library Assistants
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.15.3
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

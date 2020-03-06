@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.assistants.ui.listmember.MemberListController">
+    <stylesheets>
+        <URL value="@member_list.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="tableView" prefHeight="400.0" prefWidth="600.0">
+         <columns>
+            <TableColumn fx:id="MemberNameCol" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="MemberIdColume" prefWidth="75.0" text="MemberId" />
+            <TableColumn fx:id="MobileColume" prefWidth="75.0" text="Mobile" />
+            <TableColumn fx:id="EmailColume" prefWidth="75.0" text="Email" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
